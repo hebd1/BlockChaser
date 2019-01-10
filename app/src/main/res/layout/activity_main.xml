@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/clicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="130dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="TAPS:"
+        android:textColor="@android:color/background_light" />
+
+    <TableLayout
+        android:id = "@+id/buttonLayout"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+            android:id = "@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+
+                />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+        </TableRow>
+
+        <TableRow
+            android:id = "@+id/row2"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button10"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+        </TableRow>
+
+        <TableRow
+            android:id = "@+id/row3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button11"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button12"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button13"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button14"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button15"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+        </TableRow>
+
+        <TableRow
+            android:id = "@+id/row4"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button16"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button17"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button18"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button19"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button20"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+        </TableRow>
+
+        <TableRow
+            android:id = "@+id/row5"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp">
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button21"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button22"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button23"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button24"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size" />
+
+            <com.elihebdon.blockChaser.LightButton
+                android:id="@+id/button25"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"  />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id = "@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hintButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="HINT"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/scrambleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="SCRAMBLE"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/quitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="QUIT"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+</LinearLayout>
+

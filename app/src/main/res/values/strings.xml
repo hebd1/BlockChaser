@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Block Chaser</string>
+    <string name = "game_won">Congrats! You won.</string>
+</resources>
